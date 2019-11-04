@@ -1,0 +1,187 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.logo-padding {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 10px;
+  padding-left: 10px; }
+
+.logo p {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.company-information {
+  margin-top: 200px; }
+  .company-information p {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    line-height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px; }
+  .company-information h2 {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px; }
+
+.lightbox {
+  display: none;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5000;
+  overflow-y: scroll;
+  background-color: #C65654; }
+  .lightbox img {
+    max-width: 300px; }
+  .lightbox .close {
+    right: 24px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 2em;
+    position: fixed;
+    border: thin solid white;
+    padding: 2px 14px 5px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    font-family: 'Rajdhani', sans-serif; }
+
+.show-lb {
+  display: flex !important; }
+
+.lb-content {
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  overflow: scroll; }
+
+.error-section {
+  background-color: #C65654;
+  text-align: center;
+  margin-top: 70px;
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 23px;
+  line-height: 60px; }
+  .error-section a {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    margin-bottom: 40px; }
+  .error-section img {
+    width: 300px; }
+
+@media screen and (min-width: 768px) {
+  .error-section img {
+    width: 598px; } }
+
+.hidden {
+  display: none; }
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #C65654; }
+
+.bodyimagesone {
+  display: flex;
+  flex-direction: column; }
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  cursor: pointer; }
+
+.img-one {
+  top: 0; }
+  .img-one img {
+    max-width: 100%;
+    max-height: 100%; }
+
+@media screen and (min-width: 768px) {
+  p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    cursor: pointer; } }
+
+@media screen and (min-width: 1024px) {
+  .body-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .img-one {
+    top: 0; }
+    .img-one img {
+      overflow: hidden;
+      width: 500px;
+      height: 700px; } }

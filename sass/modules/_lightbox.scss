@@ -1,0 +1,48 @@
+.lightbox { 
+    display: none;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    overflow-y: scroll;
+
+    background-color: #C65654;
+
+    
+
+    img { max-width: 300px; }
+
+    .close {    
+        right: 24px;
+        top: 10px;
+        cursor: pointer;
+        font-size: 2em;
+        position: fixed;
+        border: thin solid white;
+        padding: 2px 14px 5px;
+        border-radius: 50%;
+        background-color: rgba(255,255,255,0.25);
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+
+       
+    }
+}
+
+.show-lb { display: flex !important;}
+
+
+
+.lb-content {
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    overflow: scroll;
+    
+}
+
+
+

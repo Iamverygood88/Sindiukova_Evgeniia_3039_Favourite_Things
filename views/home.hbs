@@ -1,0 +1,36 @@
+<header>
+        <h2 class="hidden">Main Section</h2>
+        <div class="header-info">
+        <h1 class="hidden">Three Favourite Things</h1>
+        <div class='logo-padding'>
+        <div class='logo'>
+            <p>Three Favourite Things</p>
+        </div>
+        </div>
+        </div>
+        </header>
+    
+   
+    <section class="body-images">
+       <h2 class="hidden">First - Avocado</h2>
+    {{#each  data}}
+    <div class="bodyimagesone">
+    <div class="img-one">
+    <img src="../images/{{imageChange}}" alt="avocado">
+    
+    </div>
+    <p class="link" href="{{id}}">More Info</p>
+    </div>
+    {{/each  }}
+
+</section>
+
+
+
+ <section class="lightbox">
+        <span class="close">x</span>
+
+        <div class="lb-content">
+
+        </div>
+    </section>

@@ -1,0 +1,20 @@
+.company-information {
+  margin-top: 200px; }
+  .company-information p {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    line-height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px; }
+  .company-information h2 {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px; }
