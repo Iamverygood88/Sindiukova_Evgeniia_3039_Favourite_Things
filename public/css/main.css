@@ -116,7 +116,12 @@ header {
   justify-content: center;
   text-align: center;
   height: 100%;
-  overflow: scroll; }
+  overflow-y: scroll; }
+
+@media screen and (min-width: 1024px) {
+  .lb-content {
+    padding-left: 20px;
+    padding-right: 20px; } }
 
 .error-section {
   background-color: #C65654;
@@ -183,5 +188,5 @@ p {
     top: 0; }
     .img-one img {
       overflow: hidden;
-      width: 500px;
-      height: 700px; } }
+      width: 400px;
+      height: 600px; } }

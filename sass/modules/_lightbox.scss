@@ -40,8 +40,25 @@
     justify-content: center;
     text-align: center;
     height: 100%;
-    overflow: scroll;
+    overflow-y: scroll;
     
+}
+
+
+@media screen and (min-width: 1024px) {
+
+
+    .lb-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+ 
+    
+
+    
+
+   
 }
 
 
